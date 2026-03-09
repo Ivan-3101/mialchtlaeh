@@ -1344,7 +1344,7 @@
   "UI_Displayer_MinioPath": {
     "storeIn": "objectStorage",
     "storageType": "minio",
-    "path": "$.rawResponse",
+    "path": "$",
     "targetPath": "1/HealthClaim/${TicketID}/UI_Displayer_Agent/consolidated.json",
     "targetVarName": "UI_Displayer_MinioPath"
   }
